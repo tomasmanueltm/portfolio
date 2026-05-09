@@ -1,451 +1,271 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="theme-color" content="#4700fe">
-    <meta name="description" content="Portfólio utilizado para mostrar os projetos e skill de meus tragéto tm">
-    <meta name="keywords" content="TM, portfólio, dev, projetos, tomas, fullstack">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfólio | Tomas Manuel</title>
+    <meta name="theme-color" content="#0a0a0a">
+
+    <title>Tomas Manuel — Designer &amp; Desenvolvedor Fullstack | Luanda, Angola</title>
+    <meta name="description" content="Tomas Manuel é Designer e Desenvolvedor Fullstack baseado em Luanda, Angola. Especialista em Angular, Laravel, Vue.js e UI/UX. Disponível para projetos freelance.">
+    <meta name="keywords" content="desenvolvedor fullstack, designer, Angular, Laravel, Vue.js, UI UX, freelance, Luanda, Angola, web developer, front-end, back-end">
+    <meta name="author" content="Tomas Manuel">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://tomasmanueltm.github.io">
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://tomasmanueltm.github.io">
+    <meta property="og:title" content="Tomas Manuel — Designer &amp; Desenvolvedor Fullstack">
+    <meta property="og:description" content="Designer e Desenvolvedor Fullstack baseado em Luanda, Angola. Crio experiências digitais que unem estética e funcionalidade.">
+    <meta property="og:image" content="assets/src/avatar.jpg">
+    <meta property="og:locale" content="pt_AO">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Tomas Manuel — Designer &amp; Desenvolvedor Fullstack">
+    <meta name="twitter:description" content="Designer e Desenvolvedor Fullstack baseado em Luanda, Angola.">
+    <meta name="twitter:image" content="assets/src/avatar.jpg">
+
+    <!-- Schema.org -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Tomas Manuel",
+      "jobTitle": "Designer & Desenvolvedor Fullstack",
+      "url": "https://tomasmanueltm.github.io",
+      "sameAs": [
+        "https://github.com/tomasmanueltm",
+        "https://linkedin.com/in/tomasmanueltm"
+      ],
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Luanda",
+        "addressCountry": "AO"
+      }
+    }
+    </script>
+
     <link rel="stylesheet" href="assets/sass/index.css">
 </head>
 <body>
-    
-<div id="root">
-    <!-- index -->
-    <section class="index" id="inicio">
-        <header class="header">
-            <h1>Portfólio</h1>
-        </header>
 
-        <section class="index-legenda">
-            <img src="assets/src/avatar.jpg" alt="" class="img">
-            <div class="descricao">
-                <p><strong>Olá, eu sou o Tomas</strong> e esse é o meu</p>
-                <h1>Portfólio</h1>
+<nav class="nav">
+    <a href="#inicio" class="nav-logo">TM<span>.</span></a>
+    <ul class="nav-links">
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#projetos">Projetos</a></li>
+        <li><a href="#contato">Contato</a></li>
+    </ul>
+    <a href="#contato" class="nav-cta">Disponível ↗</a>
+</nav>
+
+<main>
+
+    <section class="hero" id="inicio">
+        <div class="hero-eyebrow">
+            <span class="dot"></span>
+            <span>Disponível para projetos</span>
+        </div>
+        <h1>
+            <span>Fullstack</span>
+        </h1>
+        <div class="hero-bottom">
+            <p>Transformo ideias em produtos digitais — interfaces que comunicam, sistemas que escalam.</p>
+            <div class="hero-actions">
+                <a href="#projetos" class="btn btn-primary">Ver projetos</a>
+                <a href="#contato" class="btn btn-ghost">Contato</a>
             </div>
-        </section>
-        <a href="#sobre" class="concordo">Vamos nessa?</a>
+        </div>
+        <div class="hero-meta">
+            <span>Tomas Manuel</span>
+            <span>Luanda, Angola</span>
+            <span>2024</span>
+        </div>
     </section>
-    <!-- sobre -->
+
     <section class="sobre" id="sobre">
-        <aside>
-            <div class="img"><img src="assets/src/avatar.jpg" alt=""></div>
-            <article class="artigo">
-                <div class="_">
-                    <h2>Olá, meu nome é António Manuel Baptista mas pode me chamar de Tomas!</h2>
-                    <p>Residente em Luanda - Angola. Sou Design e Programador e aqui vou mostrar um pouco do meu trabalho!</p>
+        <div class="section-label">
+            <span class="label-tag">01 — Sobre</span>
+            <h2>Quem sou eu</h2>
+        </div>
+        <div class="sobre-body">
+            <div class="sobre-img">
+                <img src="assets/src/avatar.jpg" alt="Tomas Manuel">
+            </div>
+            <div class="sobre-content">
+                <p class="sobre-intro">Sou apaixonado por criar desde que me entendo por gente. Com uma linguagem de última geração ou um software de design, criar sempre fez parte da minha vida.</p>
+                <p class="sobre-text">Crio experiências digitais que unem estética e funcionalidade — do design ao código, do conceito ao produto final.</p>
+                <div class="sobre-skills">
+                    <div class="skill-col">
+                        <h4>Front-End</h4>
+                        <ul>
+                            <li>Angular</li>
+                            <li>Vue.js</li>
+                            <li>TypeScript</li>
+                            <li>SASS / CSS</li>
+                        </ul>
+                    </div>
+                    <div class="skill-col">
+                        <h4>Back-End</h4>
+                        <ul>
+                            <li>Laravel</li>
+                            <li>Node.js</li>
+                            <li>Firebase</li>
+                            <li>SQL</li>
+                        </ul>
+                    </div>
+                    <div class="skill-col">
+                        <h4>Design</h4>
+                        <ul>
+                            <li>Figma</li>
+                            <li>Adobe XD</li>
+                            <li>Photoshop</li>
+                            <li>UI / UX</li>
+                        </ul>
+                    </div>
                 </div>
-                <span>´<strong>Sou apaixonado por criar desde que me entendo por eu</strong>, com uma moleta infantil de criação ou com uma linguagem e software de última geração, criar sempre fez parte da minha vida. Hoje, uso essa paixão para ajudar pessoas a atingirem resultados incríveis com a comunicação visual e aplicações para suas actividades diária´</span>
-            </article>
-        </aside>
+            </div>
+        </div>
     </section>
-    <!-- conhecimentos -->
-    <article class="conhecimentos" id="conhecimentos">
-        <ul>
-            <li>
-                <h2>Habilidades <span>Técnicas</span></h2>
-                <div>
-                    <span>Seo</span>
-                    <span>UI</span>
-                    <span>Design Gráfico</span>
-                    <span>Copywriting</span>
-                    <span>Secretariado Geral</span>
-                    <span>Técnico Hardware e Software</span>
-                    <span>Desevolvedor <strong>(Web,Desktop e mobile)</strong></span>
-                    <span>Eletronica <strong> (normal) </strong></span>
-                    
-                </div>
-            </li>
-            <li>
-                <h2>Habilidades <span>Interpessoais</span></h2>
-                <div>
-                    <span>Autodidata</span>
-                    <span>Organização</span>
-                    <span>Comunicação</span>
-                    <span>Flexibilidade</span>
-                    <span>Pensamento Criativo</span>
-                    <span>Colaboração em grupo</span>
-                    <span>Empatia</span>
-                    <span>Exigente</span>
-                    <span>Liderança</span>
-                </div>
-            </li>
-            <li>
-                <h2>Hobbies <span>/Interesses</span></h2>
-                <div>
-                    <span>Livros</span>
-                    <span>Artes</span>
-                    <span>Fotografia</span>
-                    <span>Natureza</span>
-                    <span>Programação</span>
-                    <span>Curiosidade</span>
-                    <span>Filosofia</span>
-                    <span>Dialogo</span>
-                </div>
-            </li>
-            <li>
-                <h2>Experiências</h2>
-                <div>
-                    <p>Desevolvedor Fullstack<span>Sistema de Gestão Online 2019 IMPB</span></p>
-                    <p>Back-End<span>Sistema Gestão Logistica</span></p>
-                    <p>Front-End/ UI/UX<span>Website Resturante</span></p>
-                    <p>Desevolvedor Fullstack<span>E-commerce de alimentos</span></p>
-                    <p>Desevolvedor Fullstack<span>Blog Kataleya</span></p>
-                </div>
-            </li>
-            <li>
-                <h2>Softwares <span>Linguagem e Frameworks</span></h2>
-                <div>
-                    <span>Adobe <strong>(Photoshop, Illustrator, XD)</strong></span>
-                    <span>Figma<strong></strong></span>
-                    <span>Inkscape</span>
-                    <span>IDE <strong>(Atom, Sublime, VS Code, PhpStorm, Visual Studio)</strong></span>
-                    <span>Excel <strong>(Avançado)</strong></span>
-                    <span>Microsoft Office <strong>(Intensivo)</strong></span>
-                    <span>PHP<strong>(Laravel e Codigniter)</strong></span>
-                    <span>CSS <strong>(Sass, Matirialize, Less, Bootstrap)</strong></span>
-                    <span>JS<strong>(Vue, Node, TypeScript, Vanilla, Angular, Ajax)</strong></span>
-                    <span>C</span>
-                    <span>C#</span>
-                    <span>Java</span>
-                    <span class="isnone">Python</span>
 
-                    <h3>Em aprendizado</h3>
-                    <span>React Native</span>
-                    <span>WordPress</span>
-                    <span>Boot</span>
-                    <span>UX</span>
-                </div>
-            </li>
-            <li>
-                <h2>Contato</h2>
-                <div>
-                    <span><a href=""><i class="bi bi-envelope"></i>antoniomanuelbaptistabaptista@gmail.com</a></span>
-                    <span><a href=""><i class="bi bi-github"></i>tomasmanueltm</a></span>
-                    <span><a href=""><i class="bi bi-facebook"></i>tomasmanueltm</a></span>
-                    <span><a href=""><i class="bi bi-whatsapp"></i>244 929916942</a></span>
-                    <span><a href=""><i class="bi bi-linkedin"></i>tomasmanueltm</a></span>
-                </div>
-            </li>
-        </ul>
-    </article>
-    <!-- projetos -->
     <section class="projetos" id="projetos">
-        <ul>
-            <li>
-                <div class="descricao">
-                    <h2>Portf</h2>
-                    <span>Um prototipo de portfólio para mostrar meus trabalhos, projeto em construção.</span>
-                   
-                    <div class="btn-link">
-                        <div>
-                            <a href="https://tomasmanueltm.github.io/portfolio-v" target="_blank">Portfólio-v</a>
-                            <a href="https://github.com/tomasmanueltm/portfolio-v" target="_blank"><i class="bi bi-github"></i></a>
-                        </div>
-                        <div class="href">
-                            <span>JS</span>
-                            <span>SASS</span>
-                            <span>HTML</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="img"><img src="assets/src/portf.png" alt=""></div>
-            </li>
+        <div class="section-label">
+            <span class="label-tag">02 — Projetos</span>
+            <h2>Trabalhos recentes</h2>
+        </div>
 
-            <li>
-                <div class="descricao">
-                    <h2>Sholing</h2>
-                    <span>Uma tendencia diferente de construção de website e-commerce. projeto em construção.</span>
-                   
-                    <div class="btn-link">
-                        <div>
-                            <a href="https://tomasmanueltm.github.io/e-shopping" target="_blank">Sholing</a>
-                            <a href="https://github.com/tomasmanueltm/e-shopping" target="_blank"><i class="bi bi-github"></i></a>
-                        </div>
-                        <div class="href">
-                            <span>JS</span>
-                            <span>SASS</span>
-                            <span>HTML</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="img"><img src="assets/src/sholing.png" alt="e-shopping"></div>
-            </li>
+        <div class="proj-list">
 
-            <li>
-                <div class="descricao">
-                    <h2>E-Solidarios</h2>
-                    <span>Projeto fiticio para fins solidarios e com objetivo de impulsionar o crescimento de unidades solidarias.</span>
-                   
-                    <div class="btn-link">
-                        <div>
-                            <a href="https://e-solidarios.vercel.app/" target="_blank">E-Solidarios</a>
-                            <a href="https://github.com/tomasmanueltm/e-solidarios" target="_blank"><i class="bi bi-github"></i></a>
-                        </div>
-                        <div class="href">
-                            <span>JS</span>
-                            <span>SASS</span>
-                            <span>HTML</span>
-                        </div>
-                    </div>
+            <a href="https://www.prodel.co.ao" target="_blank" class="proj-item">
+                <div class="proj-thumb"><img src="assets/src/prodel.png" alt="Prodel"></div>
+                <div class="proj-info">
+                    <span class="proj-num">01</span>
+                    <h3>Prodel</h3>
+                    <p>Website institucional para empresa de produtos e serviços.</p>
                 </div>
-                <div class="img"><img src="assets/src/solidario.png" alt="E-solidarios"></div>
-            </li>
+                <div class="proj-tags"><span>Angular</span><span>Laravel</span></div>
+            </a>
 
-            <li>
-                <div class="descricao">
-                    <h2>Resturante</h2>
-                    <span>Projeto criado como desafio depois de avistar uma imagem no behance.</span>
-                   
-                    <div class="btn-link">
-                        <div>
-                            <a href="https://tomasmanueltm.github.io/restaurante" target="_blank">Resturante</a>
-                            <a href="https://github.com/tomasmanueltm/restaurante" target="_blank"><i class="bi bi-github"></i></a>
-                        </div>
-                        <div class="href">
-                            <span>JS</span>
-                            <span>SASS</span>
-                            <span>HTML</span>
-                        </div>
-                    </div>
+            <a href="https://energiaglobal.ao" target="_blank" class="proj-item">
+                <div class="proj-thumb"><img src="assets/src/energiaglobal.png" alt="Energia Global"></div>
+                <div class="proj-info">
+                    <span class="proj-num">02</span>
+                    <h3>Energia Global</h3>
+                    <p>Plataforma fullstack para empresa do setor energético.</p>
                 </div>
-                <div class="img"><img src="assets/src/restaurante.png" alt="Resturante"></div>
-            </li>
+                <div class="proj-tags"><span>Angular</span><span>Laravel</span><span>Firebase</span></div>
+            </a>
 
-            <li>
-                <div class="descricao">
-                    <h2>Musica</h2>
-                    <span>Portal de musica, projeto ficticio criado como desafio UI/UX</span>
-                   
-                    <div class="btn-link">
-                        <div>
-                            <a href="https://tomasmanueltm.github.io/musica" target="_blank">Musica</a>
-                            <a href="https://github.com/tomasmanueltm/musica" target="_blank"><i class="bi bi-github"></i></a>
-                        </div>
-                        <div class="href">
-                            <span>JS</span>
-                            <span>SASS</span>
-                            <span>HTML</span>
-                        </div>
-                    </div>
+            <a href="https://distancecomunicacao.com" target="_blank" class="proj-item">
+                <div class="proj-thumb"><img src="assets/src/distancecomunicacao.png" alt="Distance Comunicação"></div>
+                <div class="proj-info">
+                    <span class="proj-num">03</span>
+                    <h3>Distance Comunicação</h3>
+                    <p>Website para agência de comunicação.</p>
                 </div>
-                <div class="img"><img src="assets/src/musica.png" alt="Musica"></div>
-            </li>
+                <div class="proj-tags"><span>Angular</span><span>Laravel</span></div>
+            </a>
 
-            <li>
-                <div class="descricao">
-                    <h2>Contato</h2>
-                    <span>Prototipo de um projeto futuro, aplicado UI/UX</span>
-                   
-                    <div class="btn-link">
-                        <div>
-                            <a href="https://tomasmanueltm.github.io/contacto" target="_blank">Contato</a>
-                            <a href="https://github.com/tomasmanueltm/contacto" target="_blank"><i class="bi bi-github"></i></a>
-                        </div>
-                        <div class="href">
-                            <span>JS</span>
-                            <span>SASS</span>
-                            <span>HTML</span>
-                        </div>
-                    </div>
+            <a href="https://feitoemangola.gov.ao" target="_blank" class="proj-item">
+                <div class="proj-thumb"><img src="assets/src/feitoangola.png" alt="Feito em Angola"></div>
+                <div class="proj-info">
+                    <span class="proj-num">04</span>
+                    <h3>Feito em Angola</h3>
+                    <p>Portal governamental. Contribuição no front-end.</p>
                 </div>
-                <div class="img"><img src="assets/src/contacto.png" alt="Contato"></div>
-            </li>
+                <div class="proj-tags"><span>Angular</span></div>
+            </a>
 
-            <li>
-                <div class="descricao">
-                    <h2>Kataleya</h2>
-                    <span>Blog em construção, projeto pessoal de uma escritora para compartilhar seus trabalhos e mutivações.</span>
-                   
-                    <div class="btn-link">
-                        <div>
-                            <a href="#">Kataleya</a>
-                            <a href="#"><i class="bi bi-github"></i></a>
-                        </div>
-                        <div class="href">
-                            <span>SASS</span>
-                            <span>HTML</span>
-                        </div>
-                    </div>
+            <a href="https://www.facra.gov.ao" target="_blank" class="proj-item">
+                <div class="proj-thumb"><img src="assets/src/facra.png" alt="FACRA"></div>
+                <div class="proj-info">
+                    <span class="proj-num">05</span>
+                    <h3>FACRA</h3>
+                    <p>Website institucional governamental. Contribuição no front-end.</p>
                 </div>
-                <div class="img"><img src="assets/src/helena.png" alt="Kataleya"></div>
-            </li>
+                <div class="proj-tags"><span>Angular</span></div>
+            </a>
 
-            <li>
-                <div class="descricao">
-                    <h2>Shortal</h2>
-                    <span>Prototipo de um projeto que futuramente sera finalizado.</span>
-                   
-                    <div class="btn-link">
-                        <div>
-                            <a href="https://tomasmanueltm.github.io/shortal" target="_blank">Shortal</a>
-                            <a href="https://github.com/tomasmanueltm/shortal" target="_blank"><i class="bi bi-github"></i></a>
-                        </div>
-                        <div class="href">
-                            <span>SASS</span>
-                            <span>HTML</span>
-                        </div>
-                    </div>
+            <a href="https://certificacao.inapem.gov.ao" target="_blank" class="proj-item">
+                <div class="proj-thumb"><img src="assets/src/certificado.inapem.png" alt="INAPEM"></div>
+                <div class="proj-info">
+                    <span class="proj-num">06</span>
+                    <h3>INAPEM Certificação</h3>
+                    <p>Plataforma de certificação. Desenvolvimento front-end.</p>
                 </div>
-                <div class="img"><img src="assets/src/shortal.png" alt="Shortal"></div>
-            </li>
+                <div class="proj-tags"><span>Angular</span></div>
+            </a>
 
-            <li>
-                <div class="descricao">
-                    <h2>SGEO</h2>
-                    <span>Sistema de Gestão Escolar Online, projeto de fim curso para conclusão de ensiso médio.</span>
-                   
-                    <div class="btn-link">
-                        <div>
-                            <a href="#" target="_blank">SGEO</a>
-                            <a href="" target="_blank"><i class="bi bi-github"></i></a>
-                        </div>
-                        <div class="href">
-                            <span>JS</span>
-                            <span>SASS</span>
-                            <span>HTML</span>
-                            <span>PHP</span>
-                            <span>SQL</span>
-                        </div>
-                    </div>
+            <a href="https://tomasmanueltm.github.io/e-shopping" target="_blank" class="proj-item">
+                <div class="proj-thumb"><img src="assets/src/sholing.png" alt="Sholing"></div>
+                <div class="proj-info">
+                    <span class="proj-num">07</span>
+                    <h3>Sholing</h3>
+                    <p>E-commerce com abordagem diferente de construção.</p>
                 </div>
-                <div class="img"><img src="assets/src/sgeo.png" alt="SGEO"></div>
-            </li>
+                <div class="proj-tags"><span>JS</span><span>SASS</span></div>
+            </a>
 
-            <li>
-                <div class="descricao">
-                    <h2>Exposicão</h2>
-                    <span>Prototipo para exposicão de fotos de uma galeria ficticio. Projeto em construção.</span>
-                   
-                    <div class="btn-link">
-                        <div>
-                            <a href="#" target="_blank">Exposicão</a>
-                            <a href="#" target="_blank"><i class="bi bi-github"></i></a>
-                        </div>
-                        <div class="href">
-                            <span>JS</span>
-                            <span>SASS</span>
-                            <span>HTML</span>
-                        </div>
-                    </div>
+            <a href="https://e-solidarios.vercel.app/" target="_blank" class="proj-item">
+                <div class="proj-thumb"><img src="assets/src/solidario.png" alt="E-Solidários"></div>
+                <div class="proj-info">
+                    <span class="proj-num">08</span>
+                    <h3>E-Solidários</h3>
+                    <p>Projeto para fins solidários e crescimento de unidades solidárias.</p>
                 </div>
-                <div class="img"><img src="assets/src/exposicao.png" alt="Exposicão"></div>
-            </li>
+                <div class="proj-tags"><span>JS</span><span>SASS</span></div>
+            </a>
 
-            <li>
-                <div class="descricao">
-                    <h2>RestauFood</h2>
-                    <span>Prototipo para um restaurante ficticio. Projeto em construção.</span>
-                   
-                    <div class="btn-link">
-                        <div>
-                            <a href="https://tomasmanueltm.github.io/restaufood" target="_blank">RestauFood</a>
-                            <a href="https://github.com/tomasmanueltm/restaufood" target="_blank"><i class="bi bi-github"></i></a>
-                        </div>
-                        <div class="href">
-                            <span>SASS</span>
-                            <span>HTML</span>
-                        </div>
-                    </div>
+            <a href="#" class="proj-item">
+                <div class="proj-thumb"><img src="assets/src/sgeo.png" alt="SGEO"></div>
+                <div class="proj-info">
+                    <span class="proj-num">09</span>
+                    <h3>SGEO</h3>
+                    <p>Sistema de Gestão Escolar Online, projeto de fim de curso.</p>
                 </div>
-                <div class="img"><img src="assets/src/restauFood.png" alt="RestauFood"></div>
-            </li>
+                <div class="proj-tags"><span>PHP</span><span>SQL</span><span>JS</span></div>
+            </a>
 
-            <li>
-                <div class="descricao">
-                    <h2>Digital</h2>
-                    <span>Cartão digital editarvel, projeto em construção.</span>
-                   
-                    <div class="btn-link">
-                        <div>
-                            <a href="https://tomasmanueltm.github.io/digital" target="_blank">Digital</a>
-                            <a href="https://github.com/tomasmanueltm/digital" target="_blank"><i class="bi bi-github"></i></a>
-                        </div>
-                        <div class="href">
-                            <span>SASS</span>
-                            <span>HTML</span>
-                            <span>JS</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="img"><img src="assets/src/digital.png" alt="Digital"></div>
-            </li>
-
-            <li>
-                <div class="descricao">
-                    <h2>Editarefas</h2>
-                    <span>Editor de tarefas, prototipo.</span>
-                   
-                    <div class="btn-link">
-                        <div>
-                            <a href="https://tomasmanueltm.github.io/editarefas" target="_blank">Editarefas</a>
-                            <a href="https://github.com/tomasmanueltm/editarefas" target="_blank"><i class="bi bi-github"></i></a>
-                        </div>
-                        <div class="href">
-                            <span>SASS</span>
-                            <span>HTML</span>
-                            <span>Vue</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="img"><img src="assets/src/editarefas.png" alt="Editarefas"></div>
-            </li>
-
-            <li>
-                <div class="descricao">
-                    <h2>Relogio</h2>
-                    <span>RElogio digital</span>
-                   
-                    <div class="btn-link">
-                        <div>
-                            <a href="https://tomasmanueltm.github.io/relogio" target="_blank">Relogio</a>
-                            <a href="https://github.com/tomasmanueltm/relogio" target="_blank"><i class="bi bi-github"></i></a>
-                        </div>
-                        <div class="href">
-                            <span>SASS</span>
-                            <span>HTML</span>
-                            <span>JS</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="img"><img src="assets/src/relogio.png" alt="Relogio"></div>
-            </li>
-
-            <li>
-                <div class="descricao">
-                    <h2>Landing Page</h2>
-                    <span>Projecto para uma empresa ficticio, prototipo.</span>
-                   
-                    <div class="btn-link">
-                        <div>
-                            <a href="https://tomasmanueltm.github.io/landing" target="_blank">Editarefas</a>
-                            <a href="https://github.com/tomasmanueltm/landing" target="_blank"><i class="bi bi-github"></i></a>
-                        </div>
-                        <div class="href">
-                            <span>SASS</span>
-                            <span>HTML</span>
-                            <span>Vue</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="img"><img src="assets/src/landing.png" alt="Editarefas"></div>
-            </li>
-        </ul>
+        </div>
     </section>
-</div>
-    
 
-<div class="href-i">
-    <a href="#inicio"><span>Inicio</span><i></i></a>
-    <a href="#sobre"><span>Sobre</span><i></i></a>
-    <a href="#conhecimentos"><span>conhecimentos</span><i></i></a>
-    <a href="#projetos"><span>Projetos</span><i></i></a>
- </div>
+    <section class="contato" id="contato">
+        <div class="contato-inner">
+            <div class="contato-left">
+                <span class="contato-tag">03 — Contato</span>
+                <h3>Vamos trabalhar juntos?</h3>
+            </div>
+            <div class="contato-right">
+                <a href="mailto:antoniomanuelbaptistabaptista@gmail.com" class="contato-item">
+                    <span class="contato-label">Email</span>
+                    <span>antoniomanuelbaptistabaptista@gmail.com</span>
+                    <span class="arrow">↗</span>
+                </a>
+                <a href="https://github.com/tomasmanueltm" target="_blank" class="contato-item">
+                    <span class="contato-label">GitHub</span>
+                    <span>github.com/tomasmanueltm</span>
+                    <span class="arrow">↗</span>
+                </a>
+                <a href="https://linkedin.com/in/tomasmanueltm" target="_blank" class="contato-item">
+                    <span class="contato-label">LinkedIn</span>
+                    <span>linkedin.com/in/tomasmanueltm</span>
+                    <span class="arrow">↗</span>
+                </a>
+                <a href="https://wa.me/244929916942" target="_blank" class="contato-item">
+                    <span class="contato-label">WhatsApp</span>
+                    <span>+244 929 916 942</span>
+                    <span class="arrow">↗</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+</main>
 
 <footer class="footer">
-    <p>Portfólio geral 2021/2022 - @tomasmanueltm | Todos os direitos reservados &copy;</p>
+    <span>© 2024 Tomas Manuel</span>
+    <span>Luanda, Angola</span>
 </footer>
 
 <script src="./assets/js/index.js"></script>

@@ -1,30 +1,22 @@
-let JsAll = (e)=> document.querySelectorAll(e), 
+let JsAll = (e)=> document.querySelectorAll(e),
     Js = (e)=> document.querySelector(e),
-listLink = JsAll(".href-i a"); 
+listLink = JsAll(".nav-links a");
 
-
-
-// limpa lista
-function limparList()
-{
-    listLink.forEach(item =>{
-        (item.className == 'this') ? item.classList.remove("this") : null;
-    })
+function limparList() {
+    listLink.forEach(item => {
+        if (item.className == 'this') item.classList.remove("this");
+    });
 }
 
-
-// list link
-listLink.forEach(btn =>{
-    btn.addEventListener('click', function(e){
+listLink.forEach(btn => {
+    btn.addEventListener('click', function(e) {
         limparList();
         e.preventDefault();
-        var tag = btn.hash.replace("#", "");
-        document.title = (tag == "inicio") ? "Portfólio | Tomas Manuel" : tag.replace(tag.charAt(0), tag.charAt(0).toLocaleUpperCase())+' | Tomas Manuel';
-        Js(btn.hash).scrollIntoView();
+        var tag = btn.getAttribute("href").replace("#", "");
+        document.title = (tag == "inicio") ? "Portfólio | Tomas Manuel" : tag.replace(tag.charAt(0), tag.charAt(0).toLocaleUpperCase()) + ' | Tomas Manuel';
+        Js(btn.getAttribute("href")).scrollIntoView({ behavior: "smooth" });
         btn.classList.add("this");
     });
-})
-
-
+});
 
 console.clear();
